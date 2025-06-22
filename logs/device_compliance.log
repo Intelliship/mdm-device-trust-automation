@@ -1,0 +1,14 @@
+$logDir = "./logs"
+if (-not (Test-Path -Path $logDir)) {
+    New-Item -ItemType Directory -Path $logDir | Out-Null
+}
+2025-06-22 13:39:00 : Starting compliance check
+2025-06-22 13:39:00 : OS Version = 10.0.26100 (Expected: 10.0.19045)
+2025-06-22 13:39:00 : Disk Encryption = Enabled
+2025-06-22 13:39:00 : Antivirus Service = Running
+2025-06-22 13:39:00 : Device is NOT compliant
+2025-06-22 13:42:16 : Starting compliance check
+2025-06-22 13:42:16 : OS Version = 10.0.26100 (Expected: 10.0.19045)
+2025-06-22 13:42:16 : Disk Encryption = Enabled
+2025-06-22 13:42:16 : Antivirus Service = Running
+2025-06-22 13:42:16 : Device is NOT compliant
